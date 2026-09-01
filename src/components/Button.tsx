@@ -11,7 +11,7 @@ interface ButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'sty
 }
 
 const base =
-  'inline-flex items-center justify-center gap-2 rounded-[6px] text-sm md:text-base font-medium whitespace-nowrap transition-all duration-300 active:scale-[0.98]'
+  'inline-flex items-center justify-center gap-2 rounded-[6px] text-base md:text-lg font-medium whitespace-nowrap transition-all duration-300 active:scale-[0.98]'
 
 const variantClasses: Record<Variant, string> = {
   primary: 'bg-[#051A24] text-white px-7 py-3 hover:bg-[#0D212C]',
