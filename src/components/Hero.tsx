@@ -61,7 +61,7 @@ export function Hero() {
                   <span className="whitespace-nowrap font-accent text-[28px] font-semibold leading-none tracking-tight text-[#051A24] md:text-[36px]">
                     {stat.value}
                   </span>
-                  <span className="max-w-[10rem] font-mono text-sm uppercase leading-snug tracking-widest text-[#273C46]">
+                  <span className="font-mono text-sm uppercase leading-snug tracking-widest text-[#273C46] whitespace-nowrap">
                     {stat.label}
                   </span>
                 </div>
@@ -71,7 +71,7 @@ export function Hero() {
                   <span className="whitespace-nowrap font-accent text-[28px] font-semibold leading-none tracking-tight text-maroon md:text-[36px]">
                     {stats[2].value}
                   </span>
-                  <span className="max-w-[10rem] font-mono text-sm uppercase leading-snug tracking-widest text-[#273C46]">
+                  <span className="font-mono text-sm uppercase leading-snug tracking-widest text-[#273C46] whitespace-nowrap">
                     {stats[2].label}
                   </span>
             </div>
