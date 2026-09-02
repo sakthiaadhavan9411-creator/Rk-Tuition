@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <section id="top" className="border-b border-[#0D212C]/10">
       <div className="border-b border-[#0D212C]/10">
-        <div className="mx-auto flex max-w-[1200px] items-center justify-between px-6 py-3 font-mono text-[11px] uppercase tracking-[0.18em] text-[#273C46]">
+        <div className="mx-auto flex max-w-[1200px] items-center justify-between px-6 py-3 font-mono text-sm uppercase tracking-[0.18em] text-[#273C46]">
           <span>Anna Nagar West · Chennai</span>
           <span className="hidden sm:inline">CBSE · Classes 6–10</span>
           <span>தமிழ்</span>
@@ -42,7 +42,7 @@ export function Hero() {
           </div>
 
           <p
-            className="animate-fade-in-up mt-12 font-mono text-[11px] uppercase tracking-[0.18em] text-[#273C46]"
+                      className="animate-fade-in-up mt-12 font-mono text-sm uppercase tracking-[0.18em] text-[#273C46]"
             style={{ animationDelay: '0.5s' }}
           >
             Small batches · Clear concepts · Values that last
@@ -61,7 +61,7 @@ export function Hero() {
                   <span className="whitespace-nowrap font-accent text-[28px] font-semibold leading-none tracking-tight text-[#051A24] md:text-[36px]">
                     {stat.value}
                   </span>
-                  <span className="max-w-[10rem] font-mono text-xs uppercase leading-snug tracking-widest text-[#273C46]">
+                  <span className="max-w-[10rem] font-mono text-sm uppercase leading-snug tracking-widest text-[#273C46]">
                     {stat.label}
                   </span>
                 </div>
@@ -71,7 +71,7 @@ export function Hero() {
                   <span className="whitespace-nowrap font-accent text-[28px] font-semibold leading-none tracking-tight text-maroon md:text-[36px]">
                     {stats[2].value}
                   </span>
-                  <span className="max-w-[10rem] font-mono text-xs uppercase leading-snug tracking-widest text-[#273C46]">
+                  <span className="max-w-[10rem] font-mono text-sm uppercase leading-snug tracking-widest text-[#273C46]">
                     {stats[2].label}
                   </span>
             </div>
@@ -96,7 +96,7 @@ export function Hero() {
                 தமிழ்
               </span>
             </div>
-            <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.18em] text-[#273C46]">
+            <p className="mt-3 font-mono text-sm uppercase tracking-[0.18em] text-[#273C46]">
               Thiruvalluvar · திருவள்ளுவர்
             </p>
           </div>
