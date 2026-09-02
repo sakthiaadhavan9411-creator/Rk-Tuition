@@ -16,8 +16,8 @@ export default function App() {
       <main>
         <Hero />
         <Marquee />
-        <CurriculumSection />
         <TestimonialSection />
+        <CurriculumSection />
         <PricingSection />
         <ContactSection />
       </main>
