@@ -22,7 +22,7 @@ export function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="font-mono text-xs uppercase tracking-widest text-[#051A24]/60 transition hover:text-maroon"
+              className="font-mono text-sm uppercase tracking-widest text-[#051A24]/60 transition hover:text-maroon"
             >
               {link.label}
             </a>
