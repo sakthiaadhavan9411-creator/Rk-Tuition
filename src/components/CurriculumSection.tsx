@@ -129,38 +129,6 @@ export function CurriculumSection() {
             </FadeIn>
           ))}
         </div>
-
-        {/* CTA Section */}
-        <FadeIn delay={0.6}>
-          <div className="mt-20 rounded-2xl bg-[#F9F6F1] px-6 py-12 md:px-12 md:py-16">
-            <div className="flex flex-col items-center gap-6">
-              {/* Left decoration */}
-              <div className="text-maroon/40">
-                <Flower2 className="h-8 w-8" />
-              </div>
-
-              {/* Main content */}
-              <div className="text-center">
-                <h3 className="text-2xl font-medium text-[#051A24] md:text-4xl">
-                  From understanding to <span className="font-accent font-bold text-maroon">excellence.</span>
-                </h3>
-                <p className="mt-3 font-accent text-sm tracking-widest text-maroon italic">
-                  புரிதலிலிருந்து சிறப்பை நோக்கி।
-                </p>
-                <p className="mt-4 text-xs font-medium uppercase tracking-widest text-[#051A24]/70">
-                  உங்கள் குழந்தையின் தமிழ் பயணத்தை இன்று தொடங்குங்கள்.
-                </p>
-              </div>
-
-              {/* CTA Button */}
-              <div className="mt-6">
-                <Button href="#contact" icon={CalendarCheck} className="!px-8 !py-3">
-                  Book a free demo class
-                </Button>
-              </div>
-            </div>
-          </div>
-        </FadeIn>
       </div>
     </section>
   )
