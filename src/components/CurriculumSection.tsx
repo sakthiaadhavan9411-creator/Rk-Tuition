@@ -35,7 +35,7 @@ const outcomes = [
     tamil: 'தன்னம்பிக்கையுடன் தமிழில் பேச',
     english: 'Speak Tamil Confidently',
     label: 'தன்னம்பிக்கை',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=600&fit=crop',
+    image: '/speak-card.png',
     alt: 'Student speaking confidently in Tamil'
   },
   {
