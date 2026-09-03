@@ -3,6 +3,8 @@ import { FadeIn } from './FadeIn'
 import { Button } from './Button'
 import { CalendarCheck, Flower2 } from 'lucide-react'
 
+// Rebuild trigger - Curriculum redesign with premium template
+
 const outcomes = [
   {
     number: '01',
