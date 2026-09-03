@@ -43,7 +43,7 @@ const outcomes = [
     tamil: 'நம்பிக்கையுடன் அதிக மதிப்பெண்கள் பெற',
     english: 'Excel in Marks with Confidence',
     label: 'சாதனை',
-    image: 'https://images.unsplash.com/photo-1503676260728-1c00da068326?w=500&h=600&fit=crop',
+    image: '/achievement-card.png',
     alt: 'Student celebrating academic success'
   }
 ]
