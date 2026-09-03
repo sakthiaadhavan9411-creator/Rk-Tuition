@@ -19,7 +19,7 @@ const outcomes = [
     tamil: 'கவிதையையும் உரைநடையையும் ரசிக்க',
     english: 'Experience the Beauty of Poetry & Prose',
     label: 'ரசனை',
-    image: 'https://images.unsplash.com/photo-1507842217343-583f20270319?w=500&h=600&fit=crop',
+    image: '/poetry-card.png',
     alt: 'Tamil literature and poetry'
   },
   {
