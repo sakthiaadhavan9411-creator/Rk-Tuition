@@ -11,7 +11,7 @@ const outcomes = [
     tamil: 'இலக்கணத்தைப் புரிந்து கற்க',
     english: 'Understand Grammar Clearly',
     label: 'புரிதல்',
-    image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=500&h=600&fit=crop',
+    image: '/grammar-card.png',
     alt: 'Student understanding Tamil grammar'
   },
   {
