@@ -27,7 +27,7 @@ const outcomes = [
     tamil: 'எண்ணங்களைத் தெளிவாக வெளிப்படுத்த',
     english: 'Express Thoughts with Clarity',
     label: 'வெளிப்பாடு',
-    image: 'https://images.unsplash.com/photo-1456406546174-1ec99650947d?w=500&h=600&fit=crop',
+    image: '/express-card.png',
     alt: 'Student writing Tamil composition'
   },
   {
