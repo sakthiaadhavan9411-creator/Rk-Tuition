@@ -12,7 +12,7 @@ export function PricingSection() {
     <section id="batches" className="mx-auto max-w-[1200px] scroll-mt-24 border-t border-[#0D212C]/10 px-6 py-24">
       <FadeIn delay={0.2}>
         <h2 className="text-[clamp(36px,5vw,64px)] font-medium leading-[1.05] tracking-tight text-[#051A24]">
-          Batches &amp; <span className="font-accent font-semibold">fees</span>
+          <span className="text-maroon">Batches</span> &amp; <span className="font-accent font-semibold">fees</span>
         </h2>
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-maroon">
           Every plan is tailor-made for the student’s grade and learning requirements, following an
