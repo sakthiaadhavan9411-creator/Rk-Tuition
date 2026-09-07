@@ -61,7 +61,7 @@ export function PricingSection() {
           <div className="flex h-full flex-col justify-between rounded-[28px] border border-[#0D212C]/10 bg-white p-10 md:p-12">
             <div>
               <div className="flex items-center justify-between">
-                <h3 className="text-xl font-medium text-[#051A24]">One-on-One</h3>
+                <h3 className="text-xl font-medium text-maroon">One-on-One</h3>
                 <span className="font-mono text-[11px] uppercase tracking-widest text-[#273C46]/60">
                   Personal attention
                 </span>
