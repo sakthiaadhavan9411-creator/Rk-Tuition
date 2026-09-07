@@ -26,7 +26,7 @@ export function Footer() {
             moral values.
           </p>
           <div className="mt-6">
-            <Button href="#contact" icon={CalendarCheck}>
+            <Button href="https://wa.me/919363030200" icon={CalendarCheck}>
               Book a demo class
             </Button>
           </div>

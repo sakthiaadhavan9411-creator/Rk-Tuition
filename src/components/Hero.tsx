@@ -33,7 +33,7 @@ export function Hero() {
             className="animate-fade-in-up mt-10 flex flex-col gap-3 sm:flex-row"
             style={{ animationDelay: '0.4s' }}
           >
-            <Button href="#contact" icon={CalendarCheck}>
+            <Button href="https://wa.me/919363030200" icon={CalendarCheck}>
               Book a free demo class
             </Button>
             <Button href="#curriculum" variant="secondary" icon={ArrowDown}>

@@ -43,7 +43,7 @@ export function PricingSection() {
             </div>
 
             <div className="mt-10 flex flex-col gap-3">
-              <Button href="#contact" variant="invert" icon={CalendarCheck}>
+              <Button href="https://wa.me/919363030200" variant="invert" icon={CalendarCheck}>
                 Book a demo class
               </Button>
               <Button href="#contact" variant="invert-ghost" icon={Info}>
@@ -79,7 +79,7 @@ export function PricingSection() {
             </div>
 
             <div className="mt-10">
-              <Button href="#contact" icon={CalendarCheck}>
+              <Button href="https://wa.me/919363030200" icon={CalendarCheck}>
                 Book a demo class
               </Button>
             </div>

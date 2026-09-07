@@ -29,7 +29,7 @@ export function Navbar() {
           ))}
         </div>
 
-        <Button href="#contact" className="!px-5 !py-2 !text-sm">
+        <Button href="https://wa.me/919363030200" className="!px-5 !py-2 !text-sm">
           Book a demo
         </Button>
       </nav>
