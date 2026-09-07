@@ -22,7 +22,7 @@ export function PricingSection() {
 
       <div className="mt-12 grid gap-8 md:mt-16 md:grid-cols-2">
         <FadeIn delay={0.1}>
-          <div className="flex h-full flex-col justify-between rounded-[28px] bg-[#051A24] p-10 md:p-12">
+          <div className="flex h-full flex-col justify-between rounded-[28px] bg-maroon p-10 md:p-12">
             <div>
               <div className="flex items-center justify-between">
                 <h3 className="text-xl font-medium text-[#F6FCFF]">Group Batch</h3>
