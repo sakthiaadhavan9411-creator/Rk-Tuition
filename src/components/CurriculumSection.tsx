@@ -7,41 +7,31 @@ import { Flower2 } from 'lucide-react'
 const outcomes = [
   {
     number: '01',
-    tamil: 'இலக்கணத்தைப் புரிந்து கற்க',
     english: 'Understand Grammar Clearly',
-    label: 'புரிதல்',
     image: '/grammar-card.png',
     alt: 'Student understanding Tamil grammar'
   },
   {
     number: '02',
-    tamil: 'கவிதையையும் உரைநடையையும் ரசிக்க',
     english: 'Experience the Beauty of Poetry & Prose',
-    label: 'ரசனை',
     image: '/poetry-card.png',
     alt: 'Tamil literature and poetry'
   },
   {
     number: '03',
-    tamil: 'எண்ணங்களைத் தெளிவாக வெளிப்படுத்த',
     english: 'Express Thoughts with Clarity',
-    label: 'வெளிப்பாடு',
     image: '/express-card.png',
     alt: 'Student writing Tamil composition'
   },
   {
     number: '04',
-    tamil: 'தன்னம்பிக்கையுடன் தமிழில் பேச',
     english: 'Speak Tamil Confidently',
-    label: 'தன்னம்பிக்கை',
     image: '/speak-card.png',
     alt: 'Student speaking confidently in Tamil'
   },
   {
     number: '05',
-    tamil: 'நம்பிக்கையுடன் அதிக மதிப்பெண்கள் பெற',
     english: 'Excel in Marks with Confidence',
-    label: 'சாதனை',
     image: '/achievement-card.png',
     alt: 'Student celebrating academic success'
   }
@@ -103,11 +93,7 @@ export function CurriculumSection() {
                     {outcome.number}
                   </span>
 
-                  {/* Tamil & English */}
-                  <div className="flex flex-col gap-3">
-                    <h3 className="font-accent text-base font-bold leading-tight text-maroon md:text-lg">
-                      {outcome.tamil}
-                    </h3>
+                  <div>
                     <p className="text-sm font-medium text-[#051A24]">
                       {outcome.english}
                     </p>
@@ -118,11 +104,6 @@ export function CurriculumSection() {
                     <div className="h-px w-4 bg-gradient-to-r from-maroon to-transparent"></div>
                     <div className="h-1 w-1 rounded-full bg-maroon"></div>
                   </div>
-
-                  {/* Label */}
-                  <p className="text-xs font-semibold uppercase tracking-widest text-maroon">
-                    {outcome.label}
-                  </p>
                 </div>
               </div>
             </FadeIn>
