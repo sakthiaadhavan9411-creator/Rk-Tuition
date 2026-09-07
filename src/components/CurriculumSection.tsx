@@ -53,10 +53,10 @@ export function CurriculumSection() {
         </FadeIn>
 
         <FadeIn delay={0.2}>
-          <h2 className="mt-6 text-center text-[clamp(48px,5vw,72px)] font-medium leading-[1.05] tracking-tight text-[#051A24]">
+          <h2 className="mt-6 text-[clamp(48px,5vw,72px)] font-medium leading-[1.05] tracking-tight text-[#051A24]">
             What your <span className="font-accent font-bold text-maroon">child gains.</span>
           </h2>
-          <p className="mt-4 text-center font-accent text-base tracking-widest text-maroon italic">
+          <p className="mt-4 font-accent text-base tracking-widest text-maroon italic">
             புரிதலிலிருந்து முன்னேற்றம் வரை।
           </p>
           
