@@ -69,7 +69,7 @@ export function PricingSection() {
               <p className="mt-4 text-base leading-relaxed text-[#273C46]">
                 Flexible timings, individual pace.
                 <br />
-                Doubt-clearing on demand.
+                Preferred for students needing special attention and care, as evaluated by the teacher.
               </p>
 
               <div className="mt-10 flex items-baseline gap-2">
