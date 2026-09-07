@@ -17,9 +17,9 @@ export function Footer() {
       <div className="mx-auto grid max-w-[1200px] gap-12 px-6 py-16 md:grid-cols-12">
         <div className="md:col-span-5">
           <a href="#top" className="flex items-center gap-3">
-            <span className="font-accent text-xl font-semibold tracking-tight text-[#051A24]">RK</span>
+            <span className="font-accent text-xl font-semibold tracking-tight text-maroon">RK</span>
             <span className="h-4 w-px bg-[#0D212C]/15" aria-hidden="true" />
-            <span className="text-sm font-medium text-[#051A24]">Tamil Tuition</span>
+            <span className="text-sm font-medium text-maroon">Tamil Tuition</span>
           </a>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-[#273C46]">
             Concept-based Tamil classes for CBSE students of classes 6 to 10, taught with strong
