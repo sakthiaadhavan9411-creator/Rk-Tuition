@@ -12,7 +12,7 @@ export function Navbar() {
     <header className="sticky top-0 z-40 border-b border-[#0D212C]/10 bg-white/85 backdrop-blur-md">
       <nav className="mx-auto flex max-w-[1200px] items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-3">
-          <span className="font-accent text-xl font-semibold tracking-tight text-[#051A24]">RK</span>
+          <span className="font-accent text-xl font-semibold tracking-tight text-maroon">RK</span>
           <span className="h-4 w-px bg-[#0D212C]/15" aria-hidden="true" />
           <span className="text-sm font-medium text-maroon">Tamil Tuition</span>
         </a>
