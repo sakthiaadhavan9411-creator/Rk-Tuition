@@ -14,7 +14,7 @@ export function Navbar() {
         <a href="#top" className="flex items-center gap-3">
           <span className="font-accent text-xl font-semibold tracking-tight text-[#051A24]">RK</span>
           <span className="h-4 w-px bg-[#0D212C]/15" aria-hidden="true" />
-          <span className="text-sm font-medium text-[#051A24]">Tamil Tuition</span>
+          <span className="text-sm font-medium text-maroon">Tamil Tuition</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
