@@ -47,13 +47,13 @@ export function CurriculumSection() {
         <div className="text-8xl">✤</div>
       </div>
 
-      <div className="mx-auto max-w-[1400px] px-6">
+      <div className="mx-auto max-w-[1200px] px-6">
         <FadeIn delay={0.1}>
           <Eyebrow tamil="பாடத்திட்டம்" english="Curriculum" />
         </FadeIn>
 
         <FadeIn delay={0.2}>
-          <h2 className="mt-6 text-[clamp(48px,5vw,72px)] font-medium leading-[1.05] tracking-tight text-[#051A24]">
+          <h2 className="mt-4 text-[clamp(36px,5vw,64px)] font-medium leading-[1.05] tracking-tight text-[#051A24]">
             What your <span className="font-accent font-bold text-maroon">child gains.</span>
           </h2>
           <p className="mt-4 font-accent text-base tracking-widest text-maroon italic">
