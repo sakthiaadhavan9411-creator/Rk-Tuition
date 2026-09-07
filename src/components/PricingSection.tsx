@@ -3,8 +3,8 @@ import { Button } from './Button'
 import { FadeIn } from './FadeIn'
 
 const prices = {
-  group: '₹1,500',
-  oneOnOne: '₹3,500',
+  group: '₹2,000',
+  oneOnOne: '₹4,000',
 }
 
 export function PricingSection() {
@@ -14,6 +14,10 @@ export function PricingSection() {
         <h2 className="text-[clamp(36px,5vw,64px)] font-medium leading-[1.05] tracking-tight text-[#051A24]">
           Batches &amp; <span className="font-accent font-semibold text-maroon">fees</span>
         </h2>
+        <p className="mt-5 max-w-2xl text-base leading-relaxed text-[#273C46]">
+          Every plan is tailor-made for the student’s grade and learning requirements, following an
+          evaluation by the teacher.
+        </p>
       </FadeIn>
 
       <div className="mt-12 grid gap-8 md:mt-16 md:grid-cols-2">
