@@ -1,6 +1,5 @@
 import { Eyebrow } from './Eyebrow'
 import { FadeIn } from './FadeIn'
-import { Flower2 } from 'lucide-react'
 
 // Rebuild trigger - Curriculum redesign with premium template
 
@@ -61,14 +60,6 @@ export function CurriculumSection() {
             புரிதலிலிருந்து முன்னேற்றம் வரை।
           </p>
           
-          {/* Gold lotus divider */}
-          <div className="mt-6 flex justify-center">
-            <div className="flex items-center gap-4">
-              <div className="h-px w-6 bg-maroon/30"></div>
-              <Flower2 className="h-5 w-5 text-maroon" />
-              <div className="h-px w-6 bg-maroon/30"></div>
-            </div>
-          </div>
         </FadeIn>
 
         {/* Cards Grid */}

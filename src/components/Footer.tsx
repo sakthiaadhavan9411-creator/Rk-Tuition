@@ -9,8 +9,6 @@ const explore = [
 
 const connect = [
   { label: 'WhatsApp', href: 'https://wa.me/919363030200' },
-  { label: 'Instagram', href: 'https://instagram.com' },
-  { label: 'YouTube', href: 'https://youtube.com' },
 ]
 
 export function Footer() {
