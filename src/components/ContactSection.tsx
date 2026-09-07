@@ -11,7 +11,7 @@ export function ContactSection() {
   return (
     <section id="contact" className="mx-auto max-w-[1200px] scroll-mt-24 px-6 py-24">
       <FadeIn delay={0.1}>
-        <div className="relative overflow-hidden rounded-[28px] bg-maroon px-6 py-20 text-center md:px-16 md:py-28">
+        <div className="relative overflow-hidden rounded-[28px] bg-[#051A24] px-6 py-20 text-center md:px-16 md:py-28">
           <span
             className="pointer-events-none absolute -bottom-10 left-1/2 -translate-x-1/2 select-none font-accent text-[200px] leading-none text-white/[0.04] md:text-[300px]"
             aria-hidden="true"
