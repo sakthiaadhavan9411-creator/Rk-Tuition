@@ -28,8 +28,7 @@ export function ContactSection() {
           </h2>
 
           <p className="relative mx-auto mt-6 max-w-md text-base leading-relaxed text-[#E0EBF0]">
-            Book a free demo class and see how concept-based learning feels. Seats are limited, so
-            reach out early.
+            Book a free demo class and see how concept-based learning feels.
           </p>
 
           <div className="relative mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">

@@ -96,9 +96,6 @@ export function Hero() {
                 தமிழ்
               </span>
             </div>
-            <p className="mt-3 font-mono text-sm uppercase tracking-[0.18em] text-[#273C46]">
-              Thiruvalluvar · திருவள்ளுவர்
-            </p>
           </div>
         </div>
       </div>

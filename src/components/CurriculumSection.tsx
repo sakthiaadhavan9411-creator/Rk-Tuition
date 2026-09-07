@@ -99,11 +99,6 @@ export function CurriculumSection() {
                     </p>
                   </div>
 
-                  {/* Gold divider */}
-                  <div className="my-1 flex items-center gap-2">
-                    <div className="h-px w-4 bg-gradient-to-r from-maroon to-transparent"></div>
-                    <div className="h-1 w-1 rounded-full bg-maroon"></div>
-                  </div>
                 </div>
               </div>
             </FadeIn>

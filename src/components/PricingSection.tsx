@@ -1,6 +1,5 @@
 import { CalendarCheck, Info } from 'lucide-react'
 import { Button } from './Button'
-import { Eyebrow } from './Eyebrow'
 import { FadeIn } from './FadeIn'
 
 const prices = {
@@ -11,12 +10,8 @@ const prices = {
 export function PricingSection() {
   return (
     <section id="batches" className="mx-auto max-w-[1200px] scroll-mt-24 border-t border-[#0D212C]/10 px-6 py-24">
-      <FadeIn delay={0.1}>
-        <Eyebrow tamil="வகுப்புகள்" english="Batches" />
-      </FadeIn>
-
       <FadeIn delay={0.2}>
-        <h2 className="mt-4 text-[clamp(36px,5vw,64px)] font-medium leading-[1.05] tracking-tight text-[#051A24]">
+        <h2 className="text-[clamp(36px,5vw,64px)] font-medium leading-[1.05] tracking-tight text-[#051A24]">
           Batches &amp; <span className="font-accent font-semibold text-maroon">fees</span>
         </h2>
       </FadeIn>
