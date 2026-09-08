@@ -1,4 +1,4 @@
-import { ArrowUpRight, CalendarCheck } from 'lucide-react'
+import { CalendarCheck } from 'lucide-react'
 import { Button } from './Button'
 
 const explore = [
@@ -14,8 +14,8 @@ const connect = [
 export function Footer() {
   return (
     <footer className="border-t border-[#0D212C]/10">
-      <div className="mx-auto grid max-w-[1200px] gap-12 px-6 py-16 md:grid-cols-12">
-        <div className="md:col-span-5">
+      <div className="mx-auto grid max-w-[1200px] gap-12 px-6 py-16 md:grid-cols-4">
+        <div>
           <a href="#top" className="flex items-center gap-3">
             <span className="font-accent text-xl font-semibold tracking-tight text-maroon">RK</span>
             <span className="h-4 w-px bg-[#0D212C]/15" aria-hidden="true" />
@@ -32,11 +32,8 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="md:col-span-3">
-          <p className="flex items-center gap-1 font-mono text-[11px] uppercase tracking-[0.2em] text-[#273C46]">
-            Explore
-            <ArrowUpRight className="h-3 w-3" aria-hidden="true" />
-          </p>
+        <div>
+          <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#273C46]">Explore</p>
           <ul className="mt-5 flex flex-col gap-3">
             {explore.map((link) => (
               <li key={link.href + link.label}>
@@ -48,11 +45,8 @@ export function Footer() {
           </ul>
         </div>
 
-        <div className="md:col-span-2">
-          <p className="flex items-center gap-1 font-mono text-[11px] uppercase tracking-[0.2em] text-[#273C46]">
-            Connect
-            <ArrowUpRight className="h-3 w-3" aria-hidden="true" />
-          </p>
+        <div>
+          <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#273C46]">Connect</p>
           <ul className="mt-5 flex flex-col gap-3">
             {connect.map((link) => (
               <li key={link.label}>
@@ -69,7 +63,7 @@ export function Footer() {
           </ul>
         </div>
 
-        <div className="md:col-span-2">
+        <div>
           <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#273C46]">Contact</p>
           <ul className="mt-5 flex flex-col gap-3 text-base text-[#051A24]">
             <li>Anna Nagar West,</li>
