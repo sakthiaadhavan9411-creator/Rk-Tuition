@@ -14,7 +14,7 @@ const connect = [
 export function Footer() {
   return (
     <footer className="border-t border-[#0D212C]/10">
-      <div className="mx-auto grid max-w-[960px] gap-6 px-6 py-16 md:grid-cols-4">
+      <div className="mx-auto grid max-w-[960px] items-start gap-6 px-6 py-16 md:grid-cols-4 lg:grid-cols-[260px_160px_160px_200px] lg:justify-start lg:gap-10">
         <div className="md:col-span-4">
           <a href="#top" className="flex items-center gap-3">
             <span className="font-accent text-xl font-semibold tracking-tight text-maroon">RK</span>
