@@ -39,14 +39,6 @@ const outcomes = [
 export function CurriculumSection() {
   return (
     <section id="curriculum" className="relative bg-white pt-6 pb-24">
-      {/* Decorative background elements */}
-      <div className="absolute left-0 top-20 opacity-10 text-maroon">
-        <div className="text-6xl">❀</div>
-      </div>
-      <div className="absolute right-0 bottom-40 opacity-5 text-maroon">
-        <div className="text-8xl">✤</div>
-      </div>
-
       <div className="mx-auto max-w-[1200px] px-6">
         <FadeIn delay={0.1}>
           <Eyebrow tamil="பாடத்திட்டம்" english="Curriculum" />
