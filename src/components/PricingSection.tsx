@@ -14,7 +14,7 @@ export function PricingSection() {
         <h2 className="text-[clamp(36px,5vw,64px)] font-medium leading-[1.05] tracking-tight text-[#051A24]">
           <span className="text-maroon">Batches</span> &amp; <span className="font-accent font-semibold">fees</span>
         </h2>
-        <p className="mt-5 max-w-2xl text-base leading-relaxed text-maroon">
+        <p className="mt-5 max-w-2xl text-base leading-relaxed text-[#273C46]">
           Every plan is tailor-made for the student’s grade and learning requirements, following an
           evaluation by the teacher.
         </p>
