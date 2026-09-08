@@ -38,7 +38,7 @@ const outcomes = [
 
 export function CurriculumSection() {
   return (
-    <section id="curriculum" className="relative bg-white py-24">
+    <section id="curriculum" className="relative bg-white pt-6 pb-24">
       {/* Decorative background elements */}
       <div className="absolute left-0 top-20 opacity-10 text-maroon">
         <div className="text-6xl">❀</div>

@@ -49,7 +49,7 @@ export function TestimonialSection() {
   const current = testimonials[index]
 
   return (
-    <section id="reviews" className="mx-auto max-w-[1200px] scroll-mt-24 border-t border-[#0D212C]/10 px-6 py-24">
+    <section id="reviews" className="mx-auto max-w-[1200px] scroll-mt-24 border-t border-[#0D212C]/10 px-6 pt-24 pb-6">
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <div>
           <FadeIn delay={0.1}>
