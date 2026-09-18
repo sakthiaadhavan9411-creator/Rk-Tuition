@@ -38,6 +38,7 @@ export function ContactSection() {
                 href={`https://wa.me/${CONTACT.whatsapp}`}
                 variant="invert-ghost"
                 icon={MessageCircle}
+                className="!bg-[#25D366] !text-white !ring-0 hover:!bg-[#1EBE5D]"
               >
                 WhatsApp us
               </Button>
