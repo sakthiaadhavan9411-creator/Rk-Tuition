@@ -19,10 +19,6 @@ export function ContactSection() {
             கற்றல்
           </span>
 
-          <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#E0EBF0]/60">
-            தொடர்பு · Contact
-          </p>
-
           <h2 className="relative mx-auto mt-6 max-w-2xl text-[clamp(36px,5vw,64px)] font-medium leading-[1.05] tracking-tight text-[#F6FCFF]">
             Contact
           </h2>
