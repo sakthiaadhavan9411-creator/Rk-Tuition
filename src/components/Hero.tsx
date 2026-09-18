@@ -4,7 +4,6 @@ import { Button } from './Button'
 const stats = [
   { value: '12+', label: 'Years of teaching' },
   { value: '6–10', label: 'CBSE classes' },
-  { value: 'Concept-first', label: 'Method of learning' },
 ]
 
 export function Hero() {
@@ -66,14 +65,6 @@ export function Hero() {
                   </span>
                 </div>
               ))}
-            </div>
-            <div className="flex flex-col items-start gap-2 border-t border-[#0D212C]/10 py-7">
-                  <span className="whitespace-nowrap font-accent text-[28px] font-semibold leading-none tracking-tight text-maroon md:text-[36px]">
-                    {stats[2].value}
-                  </span>
-                  <span className="font-mono text-sm uppercase leading-snug tracking-widest text-[#273C46] whitespace-nowrap">
-                    {stats[2].label}
-                  </span>
             </div>
           </div>
         </div>
