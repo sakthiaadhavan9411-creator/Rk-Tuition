@@ -19,31 +19,35 @@ export function ContactSection() {
             கற்றல்
           </span>
 
-          <h2 className="relative mx-auto max-w-2xl text-[clamp(36px,5vw,64px)] font-medium leading-[1.05] tracking-tight text-[#F6FCFF]">
-            Contact
-          </h2>
+          <div className="relative grid min-h-[360px] grid-rows-[auto_1fr_auto]">
+            <div>
+              <h2 className="mx-auto max-w-2xl text-[clamp(36px,5vw,64px)] font-medium leading-[1.05] tracking-tight text-[#F6FCFF]">
+                Contact
+              </h2>
 
-          <p className="relative mx-auto mt-6 max-w-md text-base leading-relaxed text-[#E0EBF0]">
-            Book a free demo class and see how concept-based learning feels.
-          </p>
+              <p className="mx-auto mt-6 max-w-md text-base leading-relaxed text-[#E0EBF0]">
+                Book a free demo class and see how concept-based learning feels.
+              </p>
+            </div>
 
-          <div className="relative mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <Button href={`tel:${CONTACT.phone.replace(/\s/g, '')}`} variant="invert" icon={Phone}>
-              Call {CONTACT.phone}
-            </Button>
-            <Button
-              href={`https://wa.me/${CONTACT.whatsapp}`}
-              variant="invert-ghost"
-              icon={MessageCircle}
-            >
-              WhatsApp us
-            </Button>
+            <div className="flex self-center flex-col items-center justify-center gap-3 sm:flex-row">
+              <Button href={`tel:${CONTACT.phone.replace(/\s/g, '')}`} variant="invert" icon={Phone}>
+                Call {CONTACT.phone}
+              </Button>
+              <Button
+                href={`https://wa.me/${CONTACT.whatsapp}`}
+                variant="invert-ghost"
+                icon={MessageCircle}
+              >
+                WhatsApp us
+              </Button>
+            </div>
+
+            <p className="flex items-center justify-center gap-2 font-mono text-xs uppercase tracking-widest text-[#E0EBF0]/70">
+              <MapPin className="h-4 w-4" aria-hidden="true" />
+              Anna Nagar West, Chennai
+            </p>
           </div>
-
-          <p className="relative mt-12 flex items-center justify-center gap-2 font-mono text-xs uppercase tracking-widest text-[#E0EBF0]/70">
-            <MapPin className="h-4 w-4" aria-hidden="true" />
-            Anna Nagar West, Chennai
-          </p>
         </div>
       </FadeIn>
     </section>
