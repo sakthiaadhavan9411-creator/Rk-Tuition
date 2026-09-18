@@ -80,10 +80,10 @@ export function Hero() {
 
         <div className="relative lg:col-span-5">
           <div
-            className="animate-fade-in-up relative"
+            className="animate-fade-in-up relative lg:h-full"
             style={{ animationDelay: '0.35s' }}
           >
-            <div className="relative aspect-square w-full overflow-hidden rounded-3xl">
+            <div className="relative aspect-square w-full overflow-hidden rounded-3xl lg:h-full lg:aspect-auto">
               <img
                 src="/thiruvalluvar-heritage.png"
                 alt="Thiruvalluvar"
