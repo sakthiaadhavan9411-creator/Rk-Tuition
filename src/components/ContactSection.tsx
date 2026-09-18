@@ -44,7 +44,7 @@ export function ContactSection() {
               </Button>
             </div>
 
-            <p className="flex items-center justify-center gap-2 font-mono text-xs uppercase tracking-widest text-[#E0EBF0]/70">
+            <p className="flex w-fit justify-self-center items-center justify-center gap-2 font-mono text-xs uppercase tracking-widest text-[#E0EBF0]/70">
               <MapPin className="h-4 w-4" aria-hidden="true" />
               Anna Nagar West, Chennai
             </p>
