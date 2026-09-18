@@ -19,7 +19,7 @@ export function ContactSection() {
             கற்றல்
           </span>
 
-          <div className="relative grid min-h-[360px] grid-rows-[auto_1fr_auto]">
+          <div className="relative grid min-h-[280px] grid-rows-[auto_1fr_auto]">
             <div>
               <h2 className="mx-auto max-w-2xl text-[clamp(36px,5vw,64px)] font-medium leading-[1.05] tracking-tight text-[#F6FCFF]">
                 Contact
