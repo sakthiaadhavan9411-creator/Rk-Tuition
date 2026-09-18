@@ -83,9 +83,9 @@ export function Hero() {
             className="animate-fade-in-up relative"
             style={{ animationDelay: '0.35s' }}
           >
-            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl">
+            <div className="relative aspect-square w-full overflow-hidden rounded-3xl">
               <img
-                src="/thiruvalluvar.png"
+                src="/thiruvalluvar-heritage.png"
                 alt="Thiruvalluvar"
                 className="absolute inset-0 h-full w-full object-cover"
               />
