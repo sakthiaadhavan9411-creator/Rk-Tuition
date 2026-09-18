@@ -26,7 +26,7 @@ export function ContactSection() {
               </h2>
 
               <p className="mx-auto mt-6 max-w-md text-base leading-relaxed text-[#E0EBF0]">
-                Book a free demo class and see how concept-based learning feels.
+                Book a free demo class and see how learning feels.
               </p>
             </div>
 
